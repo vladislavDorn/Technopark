@@ -712,7 +712,7 @@ body {
   .contact__left, .contact__map {
     width: 50%; }
   .contact__map {
-    position: relative; }
+    margin-left: -200px; }
   .contact__map_image {
     max-width: 960px;
     width: 100%;
