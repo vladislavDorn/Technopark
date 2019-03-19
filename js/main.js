@@ -26,6 +26,20 @@ $(function() {
   });
 });
 
+//Slider promo
+$('.promo__owlcarousel').owlCarousel({
+  loop: true,
+  navText : false,
+  dots: false,
+  items: 1,
+  mouseDrag: false,
+  touchDrag: false,
+  autoplay: true,
+  autoplayTimeout: 7000,
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn'
+});
+
 //slider partners
 $('.partners__owlcarousel').owlCarousel({
     loop:true,
